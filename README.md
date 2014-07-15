@@ -1,6 +1,8 @@
 Living Code
 ===========
 
+I don't like worrying if a commit will break things.
+
 ## Purpose
 
 Pushing code to production can be a pain even with continuous integration and delivery. This framework is meant to be an AMD compatible module framework that automatically handles live code updates, runs tests, and determines if code is ready for "prime-time".
