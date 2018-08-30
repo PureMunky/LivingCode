@@ -1,12 +1,14 @@
 Living Code
 ===========
 
-I don't like worrying if a commit will break things.
+What if we could build code and never worry about negatively impacting our users while also saving on server cost because production is the only environment that really matters.
 
 ## Purpose
 
-Pushing code to production can be a pain even with continuous integration and delivery. This framework is meant to be an AMD compatible module framework that automatically handles live code updates, runs tests, and determines if code is ready for "prime-time".
+Pushing code to production can be a pain even with continuous integration and delivery. This concept is meant to automatically handle live code updates, build and runs tests, and determines if code is ready for "prime-time" through testing and piloting.
 
-## Disclaimer
-
-I have no idea if this will even work but I want to try it out conceptually.
+## Tenents
+- Environment-less: All application code lives in the production environment where only working code is widely available.
+- Testing: Using real data to build models of how functions and classes interact to automate testing entirely.
+- Piloting: Allowing certain features to be automatically piloted to end users without any need.
+- Database: An ORM that tracks code changes and responds accordingly or converts where necessary.
